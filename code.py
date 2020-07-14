@@ -18,3 +18,5 @@ parsed1 = json.loads(data1)
 parsed2 = json.loads(data2)
 
 print(json.dumps(parsed["properties"]["periods"][3]["temperature"]), ",",  json.dumps(parsed1["properties"]["periods"][3]["temperature"]), ",",  json.dumps(parsed2["properties"]["periods"][3]["temperature"]))
+
+# OUTPUT: 74 , 61 , 73
